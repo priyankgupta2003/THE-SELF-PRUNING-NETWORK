@@ -1,0 +1,72 @@
+
+=== snapshot at 10% of training (train loss 0.0109) ===
+Spearman(predicted dL, true dL), 600 single weights:
+  +0.870  taylor2 1/2Fw^2 - g w [oracle]
+  +0.668  taylor2 1/2Fw^2 - g w [ema]
+  +0.605  OBD 1/2 F w^2 [ema]
+  +0.600  OBD 1/2 F w^2 [oracle]
+  +0.583  taylor1 |g w| [ema]
+  +0.531  taylor1 |g w| [oracle]
+  +0.454  magnitude |w| [ema]
+  +0.454  magnitude |w| [oracle]
+One-shot group removal (train loss / test acc):
+  magnitude |w| [ema] @ 0.5                     0.0640 / 0.9415
+  magnitude |w| [ema] @ 0.75                    0.4781 / 0.8440
+  magnitude |w| [ema] @ 0.9                     1.7604 / 0.3816
+  taylor1 |g w| [ema] @ 0.5                     0.0797 / 0.9387
+  taylor1 |g w| [ema] @ 0.75                    0.7073 / 0.7131
+  taylor1 |g w| [ema] @ 0.9                     1.7315 / 0.4150
+  OBD 1/2 F w^2 [ema] @ 0.5                     0.0245 / 0.9526
+  OBD 1/2 F w^2 [ema] @ 0.75                    0.2553 / 0.9164
+  OBD 1/2 F w^2 [ema] @ 0.9                     1.3700 / 0.6100
+  taylor2 1/2Fw^2 - g w [ema] @ 0.5             1.2488 / 0.6323
+  taylor2 1/2Fw^2 - g w [ema] @ 0.75            1.2825 / 0.5738
+  taylor2 1/2Fw^2 - g w [ema] @ 0.9             1.5713 / 0.4540
+  magnitude |w| [oracle] @ 0.5                  0.0640 / 0.9415
+  magnitude |w| [oracle] @ 0.75                 0.4781 / 0.8440
+  magnitude |w| [oracle] @ 0.9                  1.7604 / 0.3816
+  taylor1 |g w| [oracle] @ 0.5                  0.2796 / 0.8468
+  taylor1 |g w| [oracle] @ 0.75                 1.8714 / 0.5292
+  taylor1 |g w| [oracle] @ 0.9                  2.2477 / 0.4039
+  OBD 1/2 F w^2 [oracle] @ 0.5                  0.0259 / 0.9471
+  OBD 1/2 F w^2 [oracle] @ 0.75                 0.3301 / 0.8886
+  OBD 1/2 F w^2 [oracle] @ 0.9                  1.4953 / 0.5710
+  taylor2 1/2Fw^2 - g w [oracle] @ 0.5          5.2857 / 0.5348
+  taylor2 1/2Fw^2 - g w [oracle] @ 0.75         4.6939 / 0.4345
+  taylor2 1/2Fw^2 - g w [oracle] @ 0.9          2.9631 / 0.3538
+
+=== snapshot at 100% of training (train loss 0.0004) ===
+Spearman(predicted dL, true dL), 600 single weights:
+  +0.853  OBD 1/2 F w^2 [ema]
+  +0.849  OBD 1/2 F w^2 [oracle]
+  +0.825  taylor2 1/2Fw^2 - g w [oracle]
+  +0.820  taylor2 1/2Fw^2 - g w [ema]
+  +0.806  taylor1 |g w| [oracle]
+  +0.785  taylor1 |g w| [ema]
+  +0.587  magnitude |w| [ema]
+  +0.587  magnitude |w| [oracle]
+One-shot group removal (train loss / test acc):
+  magnitude |w| [ema] @ 0.5                     0.0097 / 0.9554
+  magnitude |w| [ema] @ 0.75                    0.3070 / 0.8747
+  magnitude |w| [ema] @ 0.9                     1.6202 / 0.4011
+  taylor1 |g w| [ema] @ 0.5                     0.0354 / 0.9387
+  taylor1 |g w| [ema] @ 0.75                    0.4959 / 0.8134
+  taylor1 |g w| [ema] @ 0.9                     1.5918 / 0.4791
+  OBD 1/2 F w^2 [ema] @ 0.5                     0.0035 / 0.9554
+  OBD 1/2 F w^2 [ema] @ 0.75                    0.1636 / 0.9220
+  OBD 1/2 F w^2 [ema] @ 0.9                     1.0636 / 0.6602
+  taylor2 1/2Fw^2 - g w [ema] @ 0.5             0.3205 / 0.8774
+  taylor2 1/2Fw^2 - g w [ema] @ 0.75            0.8499 / 0.7521
+  taylor2 1/2Fw^2 - g w [ema] @ 0.9             1.6863 / 0.4150
+  magnitude |w| [oracle] @ 0.5                  0.0097 / 0.9554
+  magnitude |w| [oracle] @ 0.75                 0.3070 / 0.8747
+  magnitude |w| [oracle] @ 0.9                  1.6202 / 0.4011
+  taylor1 |g w| [oracle] @ 0.5                  0.0134 / 0.9554
+  taylor1 |g w| [oracle] @ 0.75                 0.1798 / 0.9025
+  taylor1 |g w| [oracle] @ 0.9                  0.8933 / 0.7549
+  OBD 1/2 F w^2 [oracle] @ 0.5                  0.0030 / 0.9554
+  OBD 1/2 F w^2 [oracle] @ 0.75                 0.1596 / 0.9136
+  OBD 1/2 F w^2 [oracle] @ 0.9                  1.0150 / 0.6713
+  taylor2 1/2Fw^2 - g w [oracle] @ 0.5          0.0243 / 0.9443
+  taylor2 1/2Fw^2 - g w [oracle] @ 0.75         0.1430 / 0.9164
+  taylor2 1/2Fw^2 - g w [oracle] @ 0.9          0.8476 / 0.7075

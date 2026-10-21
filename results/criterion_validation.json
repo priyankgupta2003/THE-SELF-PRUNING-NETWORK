@@ -1,0 +1,224 @@
+{
+ "0.1": {
+  "base_train_loss": 0.010947471143707858,
+  "single": {
+   "magnitude |w| [ema]": 0.45383153842094004,
+   "taylor1 |g w| [ema]": 0.5830989530526473,
+   "OBD 1/2 F w^2 [ema]": 0.6047435131764255,
+   "taylor2 1/2Fw^2 - g w [ema]": 0.667884855235709,
+   "magnitude |w| [oracle]": 0.45383153842094004,
+   "taylor1 |g w| [oracle]": 0.5306594740540945,
+   "OBD 1/2 F w^2 [oracle]": 0.6001835005097236,
+   "taylor2 1/2Fw^2 - g w [oracle]": 0.8704805291125808
+  },
+  "group": {
+   "magnitude |w| [ema] @ 0.5": {
+    "train_loss": 0.06404893844807077,
+    "test_acc": 0.9415041782729805
+   },
+   "magnitude |w| [ema] @ 0.75": {
+    "train_loss": 0.47806995333123226,
+    "test_acc": 0.8440111420612814
+   },
+   "magnitude |w| [ema] @ 0.9": {
+    "train_loss": 1.760437135574841,
+    "test_acc": 0.3816155988857939
+   },
+   "taylor1 |g w| [ema] @ 0.5": {
+    "train_loss": 0.07971269402167679,
+    "test_acc": 0.9387186629526463
+   },
+   "taylor1 |g w| [ema] @ 0.75": {
+    "train_loss": 0.707329419547928,
+    "test_acc": 0.713091922005571
+   },
+   "taylor1 |g w| [ema] @ 0.9": {
+    "train_loss": 1.731464745891353,
+    "test_acc": 0.415041782729805
+   },
+   "OBD 1/2 F w^2 [ema] @ 0.5": {
+    "train_loss": 0.0244954571215911,
+    "test_acc": 0.9526462395543176
+   },
+   "OBD 1/2 F w^2 [ema] @ 0.75": {
+    "train_loss": 0.25526340060276836,
+    "test_acc": 0.9164345403899722
+   },
+   "OBD 1/2 F w^2 [ema] @ 0.9": {
+    "train_loss": 1.370040913368,
+    "test_acc": 0.6100278551532033
+   },
+   "taylor2 1/2Fw^2 - g w [ema] @ 0.5": {
+    "train_loss": 1.2487537662068173,
+    "test_acc": 0.6323119777158774
+   },
+   "taylor2 1/2Fw^2 - g w [ema] @ 0.75": {
+    "train_loss": 1.2825469287171185,
+    "test_acc": 0.5738161559888579
+   },
+   "taylor2 1/2Fw^2 - g w [ema] @ 0.9": {
+    "train_loss": 1.5713179370529555,
+    "test_acc": 0.45403899721448465
+   },
+   "magnitude |w| [oracle] @ 0.5": {
+    "train_loss": 0.06404893844807077,
+    "test_acc": 0.9415041782729805
+   },
+   "magnitude |w| [oracle] @ 0.75": {
+    "train_loss": 0.47806995333123226,
+    "test_acc": 0.8440111420612814
+   },
+   "magnitude |w| [oracle] @ 0.9": {
+    "train_loss": 1.760437135574841,
+    "test_acc": 0.3816155988857939
+   },
+   "taylor1 |g w| [oracle] @ 0.5": {
+    "train_loss": 0.27962759432657974,
+    "test_acc": 0.8467966573816156
+   },
+   "taylor1 |g w| [oracle] @ 0.75": {
+    "train_loss": 1.8713533170729362,
+    "test_acc": 0.5292479108635098
+   },
+   "taylor1 |g w| [oracle] @ 0.9": {
+    "train_loss": 2.247712829403031,
+    "test_acc": 0.403899721448468
+   },
+   "OBD 1/2 F w^2 [oracle] @ 0.5": {
+    "train_loss": 0.02592012336676842,
+    "test_acc": 0.947075208913649
+   },
+   "OBD 1/2 F w^2 [oracle] @ 0.75": {
+    "train_loss": 0.33005972435634173,
+    "test_acc": 0.8885793871866295
+   },
+   "OBD 1/2 F w^2 [oracle] @ 0.9": {
+    "train_loss": 1.4953206038507965,
+    "test_acc": 0.5710306406685237
+   },
+   "taylor2 1/2Fw^2 - g w [oracle] @ 0.5": {
+    "train_loss": 5.285711052572224,
+    "test_acc": 0.5348189415041783
+   },
+   "taylor2 1/2Fw^2 - g w [oracle] @ 0.75": {
+    "train_loss": 4.693873023531795,
+    "test_acc": 0.43454038997214484
+   },
+   "taylor2 1/2Fw^2 - g w [oracle] @ 0.9": {
+    "train_loss": 2.9630880491909966,
+    "test_acc": 0.35376044568245124
+   }
+  }
+ },
+ "1.0": {
+  "base_train_loss": 0.0003961436075435934,
+  "single": {
+   "magnitude |w| [ema]": 0.5865982405506681,
+   "taylor1 |g w| [ema]": 0.7848984580512723,
+   "OBD 1/2 F w^2 [ema]": 0.8531875921877561,
+   "taylor2 1/2Fw^2 - g w [ema]": 0.8196848880135778,
+   "magnitude |w| [oracle]": 0.5865982405506681,
+   "taylor1 |g w| [oracle]": 0.8063046286239683,
+   "OBD 1/2 F w^2 [oracle]": 0.8487131908699745,
+   "taylor2 1/2Fw^2 - g w [oracle]": 0.825248125689238
+  },
+  "group": {
+   "magnitude |w| [ema] @ 0.5": {
+    "train_loss": 0.00973550095865874,
+    "test_acc": 0.9554317548746518
+   },
+   "magnitude |w| [ema] @ 0.75": {
+    "train_loss": 0.3070381728051997,
+    "test_acc": 0.8746518105849582
+   },
+   "magnitude |w| [ema] @ 0.9": {
+    "train_loss": 1.6201631844759394,
+    "test_acc": 0.4011142061281337
+   },
+   "taylor1 |g w| [ema] @ 0.5": {
+    "train_loss": 0.03535897715263995,
+    "test_acc": 0.9387186629526463
+   },
+   "taylor1 |g w| [ema] @ 0.75": {
+    "train_loss": 0.49592432242475537,
+    "test_acc": 0.8133704735376045
+   },
+   "taylor1 |g w| [ema] @ 0.9": {
+    "train_loss": 1.5918204310937705,
+    "test_acc": 0.479108635097493
+   },
+   "OBD 1/2 F w^2 [ema] @ 0.5": {
+    "train_loss": 0.003531954852716644,
+    "test_acc": 0.9554317548746518
+   },
+   "OBD 1/2 F w^2 [ema] @ 0.75": {
+    "train_loss": 0.1635939856191787,
+    "test_acc": 0.9220055710306406
+   },
+   "OBD 1/2 F w^2 [ema] @ 0.9": {
+    "train_loss": 1.0636001150330487,
+    "test_acc": 0.6601671309192201
+   },
+   "taylor2 1/2Fw^2 - g w [ema] @ 0.5": {
+    "train_loss": 0.32047592664745433,
+    "test_acc": 0.8774373259052924
+   },
+   "taylor2 1/2Fw^2 - g w [ema] @ 0.75": {
+    "train_loss": 0.8499444408991556,
+    "test_acc": 0.7520891364902507
+   },
+   "taylor2 1/2Fw^2 - g w [ema] @ 0.9": {
+    "train_loss": 1.6862740201351727,
+    "test_acc": 0.415041782729805
+   },
+   "magnitude |w| [oracle] @ 0.5": {
+    "train_loss": 0.00973550095865874,
+    "test_acc": 0.9554317548746518
+   },
+   "magnitude |w| [oracle] @ 0.75": {
+    "train_loss": 0.3070381728051997,
+    "test_acc": 0.8746518105849582
+   },
+   "magnitude |w| [oracle] @ 0.9": {
+    "train_loss": 1.6201631844759394,
+    "test_acc": 0.4011142061281337
+   },
+   "taylor1 |g w| [oracle] @ 0.5": {
+    "train_loss": 0.013376237432941796,
+    "test_acc": 0.9554317548746518
+   },
+   "taylor1 |g w| [oracle] @ 0.75": {
+    "train_loss": 0.17975433467165405,
+    "test_acc": 0.9025069637883009
+   },
+   "taylor1 |g w| [oracle] @ 0.9": {
+    "train_loss": 0.8932690947658143,
+    "test_acc": 0.754874651810585
+   },
+   "OBD 1/2 F w^2 [oracle] @ 0.5": {
+    "train_loss": 0.003031995331970818,
+    "test_acc": 0.9554317548746518
+   },
+   "OBD 1/2 F w^2 [oracle] @ 0.75": {
+    "train_loss": 0.15958688014658354,
+    "test_acc": 0.9136490250696379
+   },
+   "OBD 1/2 F w^2 [oracle] @ 0.9": {
+    "train_loss": 1.014984856237194,
+    "test_acc": 0.6713091922005571
+   },
+   "taylor2 1/2Fw^2 - g w [oracle] @ 0.5": {
+    "train_loss": 0.024265609820328746,
+    "test_acc": 0.9442896935933147
+   },
+   "taylor2 1/2Fw^2 - g w [oracle] @ 0.75": {
+    "train_loss": 0.1429811271160307,
+    "test_acc": 0.9164345403899722
+   },
+   "taylor2 1/2Fw^2 - g w [oracle] @ 0.9": {
+    "train_loss": 0.8475947557893165,
+    "test_acc": 0.7075208913649025
+   }
+  }
+ }
+}
